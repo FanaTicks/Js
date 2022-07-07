@@ -1,7 +1,7 @@
 "use strict";
 
 let numberOfFilms=[]
-numberOfFilms[0]= prompt('Сколько фильмов вы уже посмотрели','');
+numberOfFilms[0]= +prompt('Сколько фильмов вы уже посмотрели','');
 let personalMovieDB ={
     'count': numberOfFilms[0],
     'movies': {},
